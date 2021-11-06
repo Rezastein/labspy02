@@ -1,14 +1,17 @@
-a = int(input("masukan bilangan a : "))
-b = int(input("masukan bilangan b : "))
-c = int(input("masukan bilangan c : "))
+a = int(input("Masukan Nilai a : "))
+b = int(input("Masukan Nilai b : "))
+c = int(input("Masukan Nilai c : "))
 
-print (a, b, c)
+print("a = ", a)
+print("b = ", b)
+print("c = ", c)
 
-if a > b:
+if a > b and a > c:
     maks = a
-else:
+    print("Bilangan terbesar adalah a = ", maks)
+elif b > a and b > c:
     maks = b
-if c > maks:
+    print("Bilangan terbesar adalah b = ", maks)
+else:
     maks = c
-
-print("Bilangan terbesar adalah : ", maks)
+    print("Bilangan terbesar adalah c = ", maks)

@@ -24,4 +24,4 @@ Diketahui 3 buah bilangan bil1,bil2,bil3, akan dicari nilai yang terbesar.
 
 ## **Screenshot Output Program 3 input**
 
-![eza](ss/abc.jpg)
+![eza](ss/screenshot.png)
